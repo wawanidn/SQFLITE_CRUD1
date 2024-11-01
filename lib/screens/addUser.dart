@@ -22,6 +22,9 @@ class _AddUserState extends State<AddUser> {
  final _nameController = TextEditingController();
  final _nisnController = TextEditingController();
  final _birthDateController = TextEditingController();
+ final _jeniskelaminController = TextEditingController();
+ final _TanggalLahirController = TextEditingController();
+ final _AgamaController = TextEditingController();
  final _studentDb = StudentDatabase.instance;
  File? _imageFile;
 
